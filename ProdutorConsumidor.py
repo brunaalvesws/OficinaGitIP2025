@@ -6,6 +6,8 @@ import threading
 
 NWORKERS = 3  # número de workers
 
+#Início do código
+
 def producer():
     context = zmq.Context()
     socket = context.socket(zmq.PUSH)  # create a push socket
