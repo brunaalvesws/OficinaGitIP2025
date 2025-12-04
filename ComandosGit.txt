@@ -1,0 +1,11 @@
+git clone <link>
+git init
+git remote add origin <link>
+git status
+git add <arquivo> ou .
+git commit -m "mensagem"
+git pull
+git branch <nome>
+git checkout -b <nome>
+git checkout main
+git merge <nome>
